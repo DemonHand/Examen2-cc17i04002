@@ -1,0 +1,132 @@
+body{
+    font-family: Poppins;
+    margin: 0;
+    padding: auto;
+}
+
+
+.logo{
+    margin-left: 35px;
+}
+
+
+header{
+    
+    background: linear-gradient(to bottom, #8a2be2, #4b0082);
+    color: #fff;
+    padding: 10px;
+}
+
+.banner{
+    text-align: center;
+}
+
+.banner h1 {
+    margin: 0;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to bottom, #8a2be2, #4b0082);
+    padding: 10px 0; 
+    z-index: 999; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul {
+    
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+}
+
+nav ul li {
+    margin-right: 20px;
+    
+}
+nav ul li:last-child {
+    margin-right: 0;
+    
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 50px;
+    padding: 20px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+nav ul li a .icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 35px;
+    background-size: cover;
+}
+.banner{
+    
+    height: 1004px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-image: url("../img/13184292_5161886.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.seccion{
+    font-family:Poppins ;
+    text-align: center;
+    height: 920px;
+    padding: 20px;
+    font-size: 38px;
+    background: linear-gradient(to bottom, #8a2be2, #4b0082);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.imagen-fondo1{
+    background-color: antiquewhite;
+    
+}
+.imagen-fondo2{
+    background-color: antiquewhite;
+}
+
+.imagen-fondo3{
+    background-color: antiquewhite;
+}
+.imagen-fondo4{
+    background-color: white;
+}
+
+.imagen-abajo {
+    position: absolute;
+    bottom: 0;
+    left: 50%; /* Puedes ajustar el valor para centrar horizontalmente la imagen */
+    transform: translateY(-50%);
+    /* Otros estilos para la imagen */
+}
+footer {
+    background: linear-gradient(to bottom, #8a2be2, #4b0082);
+    color: #fff;
+    text-align: center;
+    font-family:Poppins ;
+    font-size: 38px;
+    padding: 10px 0;
+}
+
+.poppins-thin {
+    
+    font-family: "Poppins", sans-serif;
+    font-weight: 200px;
+    font-style: normal;
+  }
